@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--实体类和表之间的映射关系配置-->
+<orm-mapping>
+    <class name="com.xxl.orm.entity.Book" table="t_book">
+        <id name="id" column="bid"/>
+        <property name="name" column="bname"/>
+        <property name="author" column="author"/>
+        <property name="price" column="price"/>
+    </class>
+</orm-mapping>

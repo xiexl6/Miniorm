@@ -1,0 +1,9 @@
+com\xxl\orm\utils\Mapper.class
+com\xxl\orm\annotation\ORMTable.class
+com\xxl\orm\utils\AnnotationUtil.class
+com\xxl\orm\utils\ORMSession.class
+com\xxl\orm\utils\Dom4jUtil.class
+com\xxl\orm\annotation\ORMId.class
+com\xxl\orm\utils\ORMConfig.class
+com\xxl\orm\annotation\ORMColumn.class
+com\xxl\orm\entity\Book.class

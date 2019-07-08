@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<orm-factory>
+    <!--数据库连接数据-->
+    <property name="connection.url">jdbc:mysql://localhost:3306/study</property>
+    <property name="connection.driverClass">com.mysql.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">root</property>
+    <!--采用 xml 配置映射数据-->
+    <mapping resource="com/xxl/orm/entity/Book.mapper.xml"/>
+    <!--采用实体类注解配置映射数据-->
+    <entity package="com.xxl.orm.entity"/>
+</orm-factory>
